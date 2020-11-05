@@ -4,4 +4,4 @@
 #
 #
 
-bpytop
+sudo pacman -Syyu
