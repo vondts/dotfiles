@@ -5,3 +5,4 @@
 #
 
 sudo pacman -Syyu
+kitty
