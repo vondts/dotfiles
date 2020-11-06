@@ -5,4 +5,5 @@
 #
 
 sudo pacman --noconfirm -Syyu
-sudo pacman --noconfirm -S yay
+sudo pacman --noconfirm -S yay firefox code
+yay --answerclean a --answerdiff n -S cava-git ncspot-git pywal-git
