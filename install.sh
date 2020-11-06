@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #
-# Automatic installation of programs and creation of dotfiles
+# Automatic installation of programs and copy of dotfiles
 #
 #
 
-sudo pacman -Syyu
-kitty
+sudo pacman --noconfirm -Syyu
+sudo pacman --noconfirm -S yay
