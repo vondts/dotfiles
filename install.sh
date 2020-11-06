@@ -21,3 +21,8 @@ sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh
 yay --answerclean a --answerdiff n -S cava-git ncspot-git balena-etcher bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git stacer-git
 
 ##---Copy Dotfiles---##
+cp -r ~/dotfiles/kitty ~/.config/
+cp -r ~/dotfiles/neofetch ~/.config/
+cp -r ~/dotfiles/polybar ~/.config/
+cp -r ~/dotfiles/picom.conf ~/.config/
+cp -r ~/dotfiles/wallpapers ~/
