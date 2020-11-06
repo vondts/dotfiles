@@ -4,8 +4,20 @@
 #
 #
 
+##---Updating System---##
+echo updating system...
 sudo pacman --noconfirm -Syyu
+
+##---Install Pulseaudio---##
+echo installing pulseaudio...
 install_pulse
-sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal
+
+##---Removing Packages---##
 sudo pacman --noconfirm -Rcs picom
-yay --answerclean a --answerdiff n -S cava-git ncspot-git balena-etcher bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git 
+
+##---Install Packages---##
+echo installing packages...
+sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal
+yay --answerclean a --answerdiff n -S cava-git ncspot-git balena-etcher bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git stacer-git
+
+##---Copy Dotfiles---##
