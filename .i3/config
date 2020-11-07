@@ -32,6 +32,9 @@ bindsym $mod+Shift+q kill
 # start program launcher
 bindsym $mod+d exec --no-startup-id rofi -show run
 
+# start program task changer
+bindsym $mod+Tab exec --no-startup-id rofi -show window
+
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
 
