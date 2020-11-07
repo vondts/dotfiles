@@ -17,7 +17,7 @@ sudo pacman --noconfirm -Rcs picom
 
 ##---Install Packages---##
 echo installing packages...
-sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal
+sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal rofi
 yay --answerclean a --answerdiff n -S cava-git ncspot-git balena-etcher bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git stacer-git
 
 ##---Copy Dotfiles---##
