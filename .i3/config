@@ -30,10 +30,10 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start program launcher
-bindsym $mod+d exec --no-startup-id rofi -show run
+bindsym $mod+d exec --no-startup-id rofi -show run -theme "~/.cache/wal/colors-rofi-dark.rasi"
 
 # start program task changer
-bindsym $mod+Tab exec --no-startup-id rofi -show window
+bindsym $mod+Tab exec --no-startup-id rofi -show window -theme "~/.cache/wal/colors-rofi-dark.rasi"
 
 # launch categorized menu
 bindsym $mod+z exec --no-startup-id morc_menu
