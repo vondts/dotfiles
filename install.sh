@@ -34,3 +34,7 @@ cp -r ~/dotfiles/polybar ~/.config/
 cp -r ~/dotfiles/picom.conf ~/.config/
 cp -r ~/dotfiles/wallpapers ~/
 cp -r ~/dotfiles/.zshrc ~/.zshrc
+
+##---Config zsh---##
+
+kitty -e zsh
