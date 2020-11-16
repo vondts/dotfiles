@@ -37,4 +37,4 @@ cp -r ~/dotfiles/.zshrc ~/.zshrc
 
 ##---Config zsh---##
 
-kitty -e zsh
+kitty -e p10k configure
