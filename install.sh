@@ -17,8 +17,8 @@ sudo pacman --noconfirm -Rcs picom palemoon-bin
 
 ##---Install Packages---##
 echo installing packages...
-sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal rofi
-yay --answerclean a --answerdiff n -S cava-git ncspot-git bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git stacer-git
+sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal rofi feh
+yay --answerclean a --answerdiff n -S cava-git ncspot-git bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git stacer-git bash-pipes
 
 ##---Install oh-my-zsh and plugins---##
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
