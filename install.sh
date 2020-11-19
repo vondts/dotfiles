@@ -4,12 +4,12 @@
 #
 #
 
-##---Updating System---##
-echo updating system...
-sudo pacman --noconfirm -Syyu
-
 ##---Removing Packages---##
 sudo pacman -Rcs picom palemoon-bin
+
+##---Updating System---##
+echo updating system...
+sudo pacman --noconfirm -Syu
 
 ##---Install Pulseaudio---##
 echo installing pulseaudio...
