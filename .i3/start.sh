@@ -1,8 +1,8 @@
-#!/usr/bin/env bash
+##!/usr/bin/env bash
 #
 # Automatic start-up commands.
 #
 #
 
-killall polybar 
-cd ~/wallpapers/ && wal -o start.sh -i ~/wallpapers/
+picom --experimental-backends
+cd ~/wallpapers/ && ./theme.sh
