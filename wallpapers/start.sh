@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #
 # Script for random selection and copying of wallpapers 
-# for modules with 2 separate screens.
+# for setups with two separate screens.
 #
 # Thanks u/orestisf for the code (https://www.reddit.com/r/i3wm/comments/6580vm/how_to_set_multiple_monitors_to_use_the_same/)
 #
