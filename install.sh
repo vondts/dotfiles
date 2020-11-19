@@ -17,8 +17,8 @@ sudo pacman --noconfirm -Rcs picom palemoon-bin
 
 ##---Install Packages---##
 echo installing packages...
-sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal rofi feh
-yay --answerclean a --answerdiff n -S cava-git ncspot-git bpytop-git cmatrix polybar tty-clock lightcord-git picom-tryone-git stacer-git bash-pipes
+sudo pacman --noconfirm -S yay firefox code kitty vlc neofetch libreoffice-fresh python-pywal rofi redshift discord python steam
+yay --answerclean a --answerdiff n -S cava-git ncspot-git bpytop-git polybar-git picom-tryone-git stacer-git plymouth
 
 ##---Install oh-my-zsh and plugins---##
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
@@ -27,7 +27,12 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/p
 yay -S --noconfirm zsh-theme-powerlevel10k-git
 echo 'source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme' >>! ~/.zshrc
 
+##---Install pywalfox---##
+pip install pywalfox
+pywalfox install
+
 ##---Copy Dotfiles---##
+cp -r ~/dotfiles/.i3 ~/
 cp -r ~/dotfiles/kitty ~/.config/
 cp -r ~/dotfiles/neofetch ~/.config/
 cp -r ~/dotfiles/polybar ~/.config/
