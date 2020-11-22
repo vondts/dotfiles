@@ -5,7 +5,7 @@
 #
 
 ##---Removing Packages---##
-sudo pacman -Rcs picom palemoon-bin
+sudo pacman -Rcs palemoon-bin
 
 ##---Updating System---##
 echo updating system...
