@@ -39,7 +39,6 @@ window,
 #navigator-toolbox,
 #sidebar-box,
 #nav-bar {
-    background-color: var(--srf-color-primary) !important;
     -moz-appearance: none !important;
     background-image: none !important;
     border: none !important;
@@ -122,12 +121,12 @@ Here you can comment if you want your buttons to be showed up!
 */
 
 /* This one is the forward button  */
-#forward-button {
+forward-button {
     display: none !important;
 }
 
 /* This one is the back button  */
-#back-button {
+back-button {
     display: none !important;
 }
 
