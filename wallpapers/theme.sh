@@ -3,8 +3,8 @@
 # Script for random selection of wallpapers 
 # for light and dark set by time.
 #
-WALL_DK=$(find "$~/wallpapers/dk/" -type f | sort -R | tail -1)
-WALL_LT=$(find "$~/wallpapers/lt/" -type f | sort -R | tail -1)
+WALL_DK=$(find "$~/wallpapers/dk/" -type f | sort -R | tail -1 && redshift -x && redshift -O 3000)
+WALL_LT=$(find "$~/wallpapers/lt/" -type f | sort -R | tail -1 && reshift -x)
 TIME=$(date  +%H:%M)
 START="18:00"
 FINISH="08:00"
